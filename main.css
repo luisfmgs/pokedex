@@ -1,0 +1,17 @@
+.card {
+  background-color: #FFF;
+  height: 200px;
+  margin: 0 auto;
+  padding: 5px;
+  margin: 10px;
+}
+
+.card-image {
+  max-height: 140px;
+  margin: auto;
+  display: block;
+}
+
+body {
+  background-color: #555
+}
