@@ -12,7 +12,42 @@
   <script src="JavaScript/newscript.js"></script>
 
 </head>
-  <body>
+  <body id="corpo">
+<!-- Modal -->
+    <div class="modal fade" id="pokeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h3 class="modal-title" id="exampleModalLabel">#001 Bulbasaur</h3>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="grass col-md-2">
+                  <span class="type">Grass</span>
+                </div>
+                <div class="poison col-md-2">
+                  <span class="type">Poison</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <img class="modal-img" src="http://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png"></img>
+                </div>
+              </div>
+            </div>
+              <div class="row">
+                <div class="col-md-10 col-md-offset-1 description">
+                  <h6>Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun’s rays, the seed grows progressively larger.</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="container">
       <div class="row poke_list">
 
@@ -20,17 +55,3 @@
     </div>
   </body>
 </html>
-
-
-<!--  <div class="card">
-    <div class="row">
-      <div class="col-md-12">
-        <img src="http://pldh.net/media/dreamworld/001.png" class="card-image"></img>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <h2 class="text-center">#001 Bulbasaur</h2>
-      </div>
-    </div>
-  </div> -->

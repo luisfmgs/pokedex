@@ -3,7 +3,10 @@
   height: 200px;
   margin: 0 auto;
   padding: 5px;
+  padding-top: 16px;
   margin: 10px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 9px -1px rgba(0,0,0,0.75);
 }
 
 .card-image {
@@ -12,6 +15,50 @@
   display: block;
 }
 
-body {
-  background-color: #555
+.modal-img {
+  margin: auto;
+  display: block;
+}
+
+.container {
+  background-color: #c9c9c9;
+}
+
+#corpo {
+  background-color: #c9c9c9;
+}
+
+.loader img {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.modal-title {
+  font-weight: bold;
+  text-align: center;
+}
+
+.type {
+  color: white;
+}
+
+.grass {
+  background-color: green;
+  border-radius: 20px;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.poison {
+  background-color: purple;
+  border-radius: 20px;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.description h6{
+  font-size: 17px;
+  text-align: center;
 }
