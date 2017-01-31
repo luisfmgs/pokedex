@@ -35,30 +35,143 @@
   margin: auto;
 }
 
-.modal-title {
+.modal-title{
   font-weight: bold;
   text-align: center;
+  text-transform: capitalize;
+
 }
 
-.type {
+.type-text {
   color: white;
 }
 
 .grass {
-  background-color: green;
+  background-color: #78C850;
   border-radius: 20px;
   text-align: center;
   margin-right: 5px;
 }
 
 .poison {
-  background-color: purple;
+  background-color: #A040A0;
   border-radius: 20px;
   text-align: center;
   margin-right: 5px;
 }
 
-.description h6{
-  font-size: 17px;
+.normal {
+  background-color: #A8A878;
+  border-radius: 20px;
   text-align: center;
+  margin-right: 5px;
+}
+
+.psychic {
+  background-color: #F85888;
+  border-radius: 20px;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.ground {
+  background-color: #E0C068;
+  border-radius: 20px;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.ice {
+  background-color: #98D8D8;
+  border-radius: 20px;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.fire {
+  background-color: #F08030;
+  border-radius: 20px;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.rock {
+  background-color: #B8A038;
+  border-radius: 20px;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.dragon {
+  background-color: #7038F8;
+  border-radius: 20px;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.water {
+  background-color: #6890F0;
+  border-radius: 20px;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.bug {
+  background-color: #A8B820;
+  border-radius: 20px;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.dark {
+  background-color: #705848;
+  border-radius: 20px;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.fighting {
+  background-color: #C03028;
+  border-radius: 20px;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.ghost {
+  background-color: #705898;
+  border-radius: 20px;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.steel {
+  background-color: #B8B8D0;
+  border-radius: 20px;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.flying {
+  background-color: #A890F0;
+  border-radius: 20px;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.eletric {
+  background-color: #F8D030;
+  border-radius: 20px;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.fairy {
+  background-color: #EE99AC;
+  border-radius: 20px;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.description {
+  text-align: justify;
 }
