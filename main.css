@@ -5,8 +5,12 @@
   padding: 5px;
   padding-top: 16px;
   margin: 10px;
-  border-radius: 20px;
-  box-shadow: 3px 3px 9px -1px rgba(0,0,0,0.75);
+  border-radius: 3px;
+  box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.75);
+}
+
+.btn-load-more {
+  box-shadow: 3px 3px 14px 1px rgba(0,0,0,0.75);
 }
 
 .card-image {
@@ -15,31 +19,50 @@
   display: block;
 }
 
+.card-text {
+  text-transform: capitalize;
+}
+
 .modal-img {
   margin: auto;
   display: block;
 }
 
 .container {
-  background-color: #c9c9c9;
+  background-color: transparent;
 }
 
 #corpo {
-  background-color: #c9c9c9;
+  background-color: #EEE;
 }
 
-.loader img {
+.loader-modal img {
   width: 100px;
   height: auto;
   display: block;
   margin: auto;
 }
 
-.modal-title{
-  font-weight: bold;
+.loader-page img {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.load-more .btn{
+  display: block;
+  margin: auto;
+}
+
+.modal-title h1{
   text-align: center;
   text-transform: capitalize;
+  font-family: 'Alfa Slab One', cursive;
+}
 
+.card-text {
+  font-family: 'Alfa Slab One', cursive;
 }
 
 .type-text {
